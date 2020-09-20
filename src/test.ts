@@ -1,5 +1,9 @@
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 import 'zone.js/dist/zone-testing';
 import { getTestBed } from '@angular/core/testing';
 import {

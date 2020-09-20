@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  quessProdAPI: 'https://goodmorning-axa-dev.azure-api.net',
+  quessLocalAPI: 'http://localhost:58133/api/v1'
 };
 
 /*
